@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("iconfont.eot?t=1609746789624"); /* IE9 */
+  src: url("iconfont.eot?t=1609746789624#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAVMAAsAAAAACfgAAAUAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqIBIYhATYCJAMICwYABCAFhG0HLhtFCBEVpIWR/SiMG+viQimhWUWguZSWvywu9n0YSk4QzVXVyexeNrknAAmoCMASWET/RrIn1gTC7RBeepdSQSHgUyibX4U0g2ZONTZBAsgZMMcTng6e8Uq2fLK6AAEFsAD2j3unv3Ue2HxAucw9qAswmkCB7QkUSPi1AsWAe4DniJrcyDNM9wmU+tIF57j7hoJCAssCsT8rIwkUObXUQAyFrE7sTSAug5oi60DOAC6F349fYGIUQKaWAyhYvNMtFcz4mmECB+0/zXofAZzpjJAOkWM0IBHLSfNCeSwcHYpLypwMbK5Ngq/Z/6bP3uwPjyDqAMStLKE3+5o4LvdSxRn/fkKD2ALEuUEooTHFSri7rwfWhe/YlTfLDyxfBKf7pLBRSTY4vbS0V03gzpzalJrV1Fm3489H2UzoTCzICDzYv7ICSeludYI1Aknja86H3i2/+nbmwQldfeB0LxsdRXsI1oIMieNMvPvatZVXYHJ3OorSwZ05jCHFxPHSfkgOyKy4HH6/wnaa4SzKwNQi7KaH2YxR8rIHA8Po6HTOH87ECRbRc/n6CsptdQ+4zmCwCHJBY2yKnTRBMMYwei84LSW34Kb7i3tULXec6DxlbT2+b1l+2s0KPZDsx1kajDGCNaMxNgeGTWbh5D7z46H0SXC6C/M2YMemCSZbtm8nQZ8zoyZLmFKbmKDG2OQZgjZGzcg4E/q70UlXFiS1WVOppjvh3NVpyUqLEqk1NbYsu7d0KXMa716GAwSLJUIxMIYcbVGSPomyZkerdLf0xPbEtbO0M53nyPOKKhEpcGuMwYyd0i6UusJCIjRfeamt5PPoMA2hTsqPUkUH/2/a9OFgETUqf5JCaIWP5imNfDlsAQ9tUtKkpJ1PNDevTVRfDmkBu5r7pmeE5DpYqhLfl/iZDBFqkdDwyf7t5VSvvwFs4DPi1/ldazVMgqfidPMN+f7I02p9m4zg3Zn+0t1NgfUKd7OOXtBUfs4nFeEt2TNcbbPtSnB4xPeja9U7i2wwOe9azlGOrHMz2SCCWnoe/U7+Kyur7Pro8ufq/t+fWCCPL014CFvdrT7wh8YzMOFBNRYbhAXWNmU3Ivyp/Ehj9qY1AeE4i2Mqbbsw4ncMWJm1wIdGlw5mFk+++6vnpW6e5ZEDFS6+s9lHtajrnRMF2xGNZMVsurgoj0GfScVa2OuY/CYgj+pNX5F9vHAHOLSfm1fVp3mnOC7QUwbnqYVFh3Hx4DJAus06ESzQ4pBEoyh2XjiCSMHz5s6nw9n8PJRCni04F/PySRRYzNVpty7C7FGDS310vUsDmAGak/kwR+TPb54ffV1SE0RsvxbVP7LnS/dXaaGzOZlANyvFh2QJfmycjm3J5IEmSzqHjGeRBBoforBEH00A9o7uDdV1MU08FLp8vtYWfVLIFQZjEmE01FQmQ11hOpRG8Thc6aRYLhIfYKQWBkJ7C5BpK/AQcu19MYnwg5qu/lDXPnIorYxOZ1aGxh4/W9EZRuo/tAxysqMzH+W2mB57p1leSLpD0+KjIuTFWIMTOsWG9JxKMyZWOahmHsO+C0WVFYOF2SxWWcbUk8Igh/NmU9AxMCK9D7IYiBP73Y0vfb4Fk4ddRxtaGvR3oJJlfFII8g6YRnx2armVycnTpGQM84uYEgdSs0bYMSxIpGetYGCCeUAwqmRcJ+4qDstLj1d3BEqgyAJLc2m/TOIc")
+      format("woff2"),
+    url("iconfont.woff?t=1609746789624") format("woff"),
+    url("iconfont.ttf?t=1609746789624") format("truetype"),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+      url("iconfont.svg?t=1609746789624#iconfont") format("svg"); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mario-logo:before {
+  content: "\e602";
+}
