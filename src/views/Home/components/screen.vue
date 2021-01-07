@@ -5,7 +5,7 @@
       <h1 :class="{ fade: fade, fadesin1: fadesin1 }">Hello, I'm Mario</h1>
       <h3 :class="{ fade: fade, fadesin2: fadesin2 }">{{ $t('home.interset') }}</h3>
       <span :class="{ fade: fade, active: active, fadesin3: fadesin3 }" @click="onClickVita">{{ $t('home.vita') }}</span>
-      <span :class="{ fade: fade, fadesin3: fadesin3 }" @click="changeLanguage">{{ $t('home.myBlog') }}</span>
+      <span :class="{ fade: fade, fadesin3: fadesin3 }" @click="$router.push('vita')">{{ $t('home.myBlog') }}</span>
     </div>
     <!-- 背景切换 -->
     <ul class="bg-img">
@@ -40,13 +40,6 @@ export default {
     this.userInfo()
   },
   methods: {
-    changeLanguage() {
-      if (this.$i18n.locale === 'en') {
-        this.$i18n.locale = 'zh'
-      } else {
-        this.$i18n.locale = 'en'
-      }
-    },
     userInfo() {
       setTimeout(() => {
         this.fadesin1 = true

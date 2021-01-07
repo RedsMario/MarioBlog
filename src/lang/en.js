@@ -7,8 +7,12 @@ export default {
   },
   navbar: {
     blog: 'Mario Blog',
-    myInfo: 'MyInfo',
-    myProject: 'MyProject',
-    aboutMe: 'AboutMe'
+    myInfo: 'My Info',
+    myProject: 'Project',
+    myExperience: 'Experience',
+    technicalMastery: 'Mastery',
+    workIntention: 'Intention',
+    chinese: 'Chinese',
+    english: 'English'
   }
 }

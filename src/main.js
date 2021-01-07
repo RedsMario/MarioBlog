@@ -7,10 +7,10 @@ import i18n from '@/lang'
 
 // 引入elementui组件
 import '@/plugins/element.js'
+
 // 导入全局样式文件
 import '@/style/index.scss'
 Vue.config.productionTip = false
-
 new Vue({
   router,
   store,

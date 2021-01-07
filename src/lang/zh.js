@@ -9,6 +9,10 @@ export default {
     blog: 'Mario博客',
     myInfo: '我的信息',
     myProject: '我的作品',
-    aboutMe: '关于我'
+    myExperience: '我的经历',
+    technicalMastery: '技术掌握',
+    workIntention: '工作意向',
+    chinese: '中文',
+    english: '英文'
   }
 }
