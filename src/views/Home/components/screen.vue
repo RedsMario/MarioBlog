@@ -3,13 +3,27 @@
     <!-- 个人信息 -->
     <div class="myInfo">
       <h1 :class="{ fade: fade, fadesin1: fadesin1 }">Hello, I'm Mario</h1>
-      <h3 :class="{ fade: fade, fadesin2: fadesin2 }">{{ $t('home.interset') }}</h3>
-      <span :class="{ fade: fade, active: active, fadesin3: fadesin3 }" @click="onClickVita">{{ $t('home.vita') }}</span>
-      <span :class="{ fade: fade, fadesin3: fadesin3 }" @click="$router.push('vita')">{{ $t('home.myBlog') }}</span>
+      <h3 :class="{ fade: fade, fadesin2: fadesin2 }">
+        {{ $t('home.interset') }}
+      </h3>
+      <span
+        :class="{ fade: fade, active: active, fadesin3: fadesin3 }"
+        @click="onClickVita"
+        >{{ $t('home.vita') }}</span
+      >
+      <span
+        :class="{ fade: fade, fadesin3: fadesin3 }"
+        @click="$router.push('vita')"
+        >{{ $t('home.myBlog') }}</span
+      >
     </div>
     <!-- 背景切换 -->
     <ul class="bg-img">
-      <li :style="index === randomIndex ? 'display: list-item;' : 'display: none'" v-for="(item, index) in background" :key="index"></li>
+      <li
+        :style="index === randomIndex ? 'display: list-item;' : 'display: none'"
+        v-for="(item, index) in background"
+        :key="index"
+      ></li>
     </ul>
   </div>
 </template>

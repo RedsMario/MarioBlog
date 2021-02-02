@@ -45,29 +45,18 @@
   </el-dropdown>
 </template>
 <script>
-import { setItem } from '@/utils/storage.js'
+import { mapState, mapMutations } from 'vuex'
 export default {
   name: 'LangSelect',
   data() {
     return {
-      // 选中的语言
-      selectedLanguage: this.$i18n.locale || 'zh'
     }
   },
+  computed: {
+    ...mapState(['selectedLanguage'])
+  },
   methods: {
-    // 控制语言切换
-    handleSetLanguage(language) {
-      console.log(language)
-      if (language === 'en') {
-        this.selectedLanguage = 'en'
-      } else {
-        this.selectedLanguage = 'zh'
-      }
-      // 更新本地语言
-      setItem('locale', this.selectedLanguage)
-      // 修改i18n
-      this.$i18n.locale = this.selectedLanguage
-    }
+    ...mapMutations(['handleSetLanguage'])
   }
 }
 </script>

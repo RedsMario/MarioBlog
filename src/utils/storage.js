@@ -3,8 +3,11 @@
  */
 
 // 获取本地数据
-export const getItem = key => {
-  const data = window.localStorage.getItem(key)
+export const getItem = (key, position) => {
+  const data =
+    position === 'sessionStorage'
+      ? window.sessionStorage.getItem(key)
+      : window.localStorage.getItem(key)
   try {
     return JSON.parse(data)
   } catch (error) {
@@ -13,12 +16,16 @@ export const getItem = key => {
 }
 
 // 写入数据
-export const setItem = (key, value) => {
+export const setItem = (key, value, position) => {
   try {
     if (typeof value === 'object') {
-      window.localStorage.setItem(key, JSON.stringify(value))
+      position === 'sessionStorage'
+        ? window.sessionStorage.setItem(key, JSON.stringify(value))
+        : window.localStorage.setItem(key, JSON.stringify(value))
     } else {
-      window.localStorage.setItem(key, value)
+      position === 'sessionStorage'
+        ? window.sessionStorage.setItem(key, value)
+        : window.localStorage.setItem(key, value)
     }
   } catch (error) {
     throw new Error('写入本地数据错误')

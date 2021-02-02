@@ -4,7 +4,53 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   background: none;
   background: #fafafa;
   user-select: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.w {
+  max-width: 1200px !important;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+@media (max-width: 576px) {
+  .w {
+    width: 300px;
+  }
+}
+@media (min-width: 576px) {
+  .w {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .w {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .w {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .w {
+    width: 1140px;
+  }
 }
