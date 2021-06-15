@@ -23,7 +23,7 @@ export default {
   },
   Experience: {
     bigPeople: {
-      company: '北京中恒博瑞数字科技有限公司',
+      company: '陕西上元智慧科技股份有限公司',
       pastTime: '08/2020',
       currentTime: '至今',
       work: '前端工程师',
